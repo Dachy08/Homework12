@@ -1,0 +1,63 @@
+.table-container {
+    background-color: #f0f8ff; /* Light blue background, similar to the example */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* For responsiveness on small screens */
+  }
+  
+  .table-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+    /* text-align: center; */ /* If you want "User Data" centered */
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for the table itself */
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #e9ecef; /* Light grey for table header */
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for rows */
+  }
+  
+  .user-table tr:hover {
+    background-color: #f1f1f1; /* Hover effect for rows */
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .delete-button:hover {
+    background-color: #da190b;
+  }
+  
+  .no-users-message {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #777;
+  }
